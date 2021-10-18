@@ -1,0 +1,36 @@
+.checkout {
+  padding: 5rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkout__header {
+  margin-bottom: 3rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.form__label {
+  margin: 1rem 0;
+  font-size: 1.4rem;
+}
+
+.form__input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.form__submit {
+  width: 10rem;
+  padding: 0.5rem;
+  margin-top: 1.6rem;
+  cursor: pointer;
+}
